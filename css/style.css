@@ -1,0 +1,111 @@
+.additional-text {
+    margin-left: 10px;
+    display: inline;
+}
+.new-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.box1 {
+    background-color: turquoise;
+    width: 400px;
+}
+.box2 {
+    background-color: rgb(44, 162, 151);
+    width: 300px;
+}
+.box3 {
+    background-color: rgb(26, 137, 126);
+    width: 500px;
+}
+input[type="email"] {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+label {
+    margin-bottom: 5px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+    position: relative;
+}
+.sub-title {
+    font-size: 20px;
+    color: grey;
+    position: absolute;
+    right:500px;
+    top: 140px;
+    letter-spacing: 5px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 5px;
+    width: 130%;
+}
+.search-button, .other-button {
+    width: 150px;
+    color: black;
+    background-color: rgb(159, 157, 157);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.other-button {
+    margin-left: 5px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bg-grey {
+    background-color: rgb(201, 195, 195);
+}
+
+h1 {
+    font-size: 100px;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color:red;
+}
+.green {
+    color:green;
+}
+.yellow {
+    color:yellow
+}
